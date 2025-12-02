@@ -1,0 +1,13 @@
+This is a sample text file for testing file upload functionality.
+
+File Upload Test Data
+=====================
+
+This file can be used to test:
+- Single file uploads
+- Text file validation
+- File content verification
+- File size checks
+
+Created for Playwright JavaScript Learning Roadmap
+Module 1 - Week 2: Interactions & Locators

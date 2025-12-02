@@ -1,0 +1,20 @@
+{
+  "document": {
+    "title": "Sample Test Document",
+    "author": "Playwright Tester",
+    "date": "2025-01-15",
+    "content": {
+      "introduction": "This is a sample JSON document for testing file uploads",
+      "features": [
+        "JSON file upload testing",
+        "File content validation",
+        "MIME type verification"
+      ],
+      "metadata": {
+        "version": "1.0",
+        "format": "JSON",
+        "purpose": "Test data for Playwright exercises"
+      }
+    }
+  }
+}
