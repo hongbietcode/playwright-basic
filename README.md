@@ -57,6 +57,17 @@ yarn --version  # 1.22.0 trở lên
 
 ---
 
+## 🌐 Xem Online | View Online
+
+**Live Documentation:** [https://playwright-basic.vercel.app](https://playwright-basic.vercel.app)
+
+Roadmap này được deploy như một **interactive GitBook** trên Vercel với:
+- ✅ Navigation dễ dàng
+- ✅ Search functionality
+- ✅ Mobile-friendly
+- ✅ Copy code buttons
+- ✅ Syntax highlighting
+
 ## ⚙️ Cài Đặt | Installation
 
 ### Bước 1: Clone/Download project
@@ -67,14 +78,27 @@ cd playwright-basic
 ### Bước 2: Cài đặt dependencies
 ```bash
 yarn install
+# hoặc
+npm install
 ```
 
-### Bước 3: Cài đặt browsers
+### Bước 3: Cài đặt browsers (để chạy tests)
 ```bash
 yarn run install:browsers
 ```
 
-### Bước 4: Chạy test mẫu
+### Bước 4: Xem documentation locally
+```bash
+# Development server (GitBook)
+yarn dev
+# Mở http://localhost:4000
+
+# Build static site
+yarn build
+# Output trong _book/
+```
+
+### Bước 5: Chạy test mẫu
 ```bash
 # Chạy tất cả tests
 yarn test
@@ -86,7 +110,7 @@ yarn test:ui
 yarn test:headed
 ```
 
-### Bước 5: Xem báo cáo (test report)
+### Bước 6: Xem báo cáo (test report)
 ```bash
 yarn report
 ```

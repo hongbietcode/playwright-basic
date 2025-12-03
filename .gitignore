@@ -43,3 +43,10 @@ traces/
 
 # TypeScript
 *.tsbuildinfo
+
+# HonKit/GitBook
+_book/
+
+# Vercel
+.vercel/
+.vercel
