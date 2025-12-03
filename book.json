@@ -9,21 +9,21 @@
     "summary": "SUMMARY.md"
   },
   "plugins": [
-    "theme-comscore",
+    "mermaid-gb3",
     "github",
-    "anchors",
-    "copy-code-button",
-    "splitter",
     "search-plus",
     "-lunr",
     "-search"
   ],
   "pluginsConfig": {
-    "github": {
-      "url": "https://github.com/yourusername/playwright-basic"
+    "mermaid-gb3": {
+      "theme": "default"
     },
-    "theme-comscore": {
-      "copyButtons": true
+    "github": {
+      "url": "https://github.com/huutri/playwright-basic"
+    },
+    "search-plus": {
+      "maxIndexSize": 1000000
     }
   }
 }
